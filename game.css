@@ -33,3 +33,10 @@ padding: 10px;
 float: none;
 text-align: left;
 }
+
+#btn_1{
+	width: 30%;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 1000;
+	font-size: 30px;
+};
