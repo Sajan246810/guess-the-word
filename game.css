@@ -40,3 +40,10 @@ text-align: left;
 	font-weight: 1000;
 	font-size: 30px;
 };
+
+#player1_name,#player2_name{
+	display: inline-block;
+}
+#player1_score,#player2_score{
+	display: inline-block;
+}

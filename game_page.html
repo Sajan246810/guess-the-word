@@ -13,9 +13,9 @@
 <body>
 
 <div class="container">
-	<h4 id  = "player1_name"></h4><span id  ="player1_score"></span>
-	<br>
-	<h4 id  = "player2_name"></h4><span id  ="player2_score"></span>
+	<h4 id= "player1_name" class="col-lg-0"></h4><span id  ="player1_score" class="col-lg-1"></span>
+	<br class="col-lg-12">
+	<h4 id= "player2_name" class="col-lg-0"></h4><span id  ="player2_score" class="col-lg-1"></span>
 	<center>
 		<h2 style="color: white;">Guess The Word!</h2>
 		<h4 id = "player_question"></h4>
@@ -26,10 +26,11 @@
 		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
 		<input type="text" id="word" class="form-control" placeholder="Enter your word">
 		<br>
+		<input type="text" id="hint" class="form-control" placeholder="Enter hint">
 		<button class = "btn btn-success" onclick="send()" id  ="btn_1">send</button>
 	</center>
 </div>
 
-<script src="game_page.js"></script>
+<script src="game_login.js"></script>
 </body>
 </html>
